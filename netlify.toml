@@ -1,0 +1,16 @@
+# Configuración de redirecciones
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Configuración de encabezados HTTP
+[[headers]]
+  # Habilita el encabezado HTTP Strict-Transport-Security
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+
+# Configuración de funciones (funciones serverless)
+[build]
+  functions = "lambda-functions"

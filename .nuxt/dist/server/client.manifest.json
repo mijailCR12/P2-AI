@@ -1,0 +1,15 @@
+{
+  "@vite/client": {
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "C:/Users/mijail/Desktop/Arquitectura informatica/P2-AI/node_modules/nuxt/dist/app/entry": {
+    "resourceType": "script",
+    "isEntry": true,
+    "file": "C:/Users/mijail/Desktop/Arquitectura informatica/P2-AI/node_modules/nuxt/dist/app/entry",
+    "module": true
+  }
+}

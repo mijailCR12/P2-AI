@@ -1,6 +1,10 @@
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from 'nuxt/config'
+// import { defineNuxtConfig } from 'nuxt'
+
 export default defineNuxtConfig({
-  app: {
+    modules: ['@nuxt/content','@nuxtjs/snipcart'],
+	  snipcart: {publicApiKey: 'YWYxZDZkMjgtNzU0Ny00OTdiLTgxMWYtMDhmZjIxMDJmZjM2NjM4MzU5NTM0ODY2MTU3OTcz'},
+    app: {
     head: {
       meta: [
         { charset: 'utf-8' },
@@ -14,5 +18,5 @@ export default defineNuxtConfig({
         { rel: 'icon', type:"image/png", href: 'images/favicon.png'}
       ]
     }
-  }
+	}
 })
